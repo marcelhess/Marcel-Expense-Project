@@ -1,0 +1,241 @@
+2025-09-15 19:00:04 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 19:00:07 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:16 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:16 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:29 [HTTP]: GET /api/v1/settings [32m200[0m 15.043ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:29 [HTTP]: GET /api/v1/settings [32m304[0m 6.927ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:30 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 86.289ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:03:30 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 24.571ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:04:44 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 19:04:44 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 19:06:28 [HTTP]: GET /api/v1/settings [33m401[0m 2.358ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:06:28 [HTTP]: GET /api/v1/settings [33m401[0m 0.544ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:36 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:36 [HTTP]: POST /api/v1/auth/login [33m401[0m 29.947ms {"email":"marcel.hess.ch@outlook.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.218ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:36 [HTTP]: GET /api/v1/settings [33m401[0m 0.360ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:59 [HTTP]: POST /api/v1/auth/login [33m401[0m 18.447ms {"email":"marcel.hess.ch@outlook.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:59 [HTTP]: GET /api/v1/settings [33m401[0m 0.243ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:59 [HTTP]: GET /api/v1/settings [33m401[0m 0.272ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:21 [HTTP]: POST /api/v1/auth/login [32m200[0m 120.879ms {"email":"sam@gmail.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:21 [HTTP]: GET /api/v1/settings [32m200[0m 45.425ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:21 [HTTP]: GET /api/v1/settings [32m304[0m 45.553ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:21 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 189.475ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:22 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 155.641ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:46 [HTTP]: GET /api/v1/auth/logout [32m200[0m 19.141ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:46 [HTTP]: GET /api/v1/settings [33m401[0m 0.238ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:08:46 [HTTP]: GET /api/v1/settings [33m401[0m 0.467ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:17 [HTTP]: POST /api/v1/auth/register [32m201[0m 108.849ms {"name":"Marcel Hess","email":"marcel.hess.ch@outlook.com","password":"[REDACTED]","role":"admin"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:33 [HTTP]: POST /api/v1/auth/login [32m200[0m 91.315ms {"email":"marcel.hess.ch@outlook.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:33 [HTTP]: GET /api/v1/settings [32m304[0m 38.474ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:33 [HTTP]: GET /api/v1/settings [32m304[0m 36.265ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:34 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 163.396ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:09:34 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 178.282ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:03 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:03 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:14 [HTTP]: GET /api/v1/settings [32m304[0m 45.776ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:14 [HTTP]: GET /api/v1/settings [32m304[0m 34.688ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:14 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 187.930ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:14 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 186.245ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:17 [HTTP]: GET /api/v1/auth/logout [32m304[0m 19.109ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:17 [HTTP]: GET /api/v1/settings [33m401[0m 0.825ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:17 [HTTP]: GET /api/v1/settings [33m401[0m 0.304ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:34 [HTTP]: POST /api/v1/auth/login [32m200[0m 124.942ms {"email":"marcel.hess.ch@outlook.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:34 [HTTP]: GET /api/v1/settings [32m304[0m 41.770ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:34 [HTTP]: GET /api/v1/settings [32m304[0m 45.300ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:35 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 170.816ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:35 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 182.255ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:39 [HTTP]: GET /api/v1/auth/logout [32m304[0m 19.012ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:39 [HTTP]: GET /api/v1/settings [33m401[0m 0.365ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:39 [HTTP]: GET /api/v1/settings [33m401[0m 1.176ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:55 [HTTP]: POST /api/v1/auth/login [33m401[0m 20.425ms {"email":"adelahess@icloud.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.241ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:55 [HTTP]: GET /api/v1/settings [33m401[0m 0.294ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:10 [HTTP]: POST /api/v1/auth/login [33m401[0m 18.462ms {"email":"adelahess@icloud.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:10 [HTTP]: GET /api/v1/settings [33m401[0m 0.217ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:10 [HTTP]: GET /api/v1/settings [33m401[0m 0.232ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:41 [HTTP]: POST /api/v1/auth/register [32m201[0m 106.084ms {"name":"Hans Wurst","email":"hans.wurst@aussendienst.com","password":"[REDACTED]","role":"sales_rep"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: POST /api/v1/auth/login [32m200[0m 94.230ms {"email":"hans.wurst@aussendienst.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/settings [32m304[0m 44.203ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/settings [32m304[0m 37.240ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/categories [32m200[0m 58.174ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 59.098ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/categories [32m304[0m 54.835ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 56.971ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:57 [HTTP]: GET /api/v1/categories [32m304[0m 47.656ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:15:01 [HTTP]: GET /api/v1/auth/logout [32m304[0m 17.137ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:15:01 [HTTP]: GET /api/v1/settings [33m401[0m 0.239ms - {
+  "service": "expense-tracker"
+}
+2025-09-15 19:15:01 [HTTP]: GET /api/v1/settings [33m401[0m 0.326ms - {
+  "service": "expense-tracker"
+}

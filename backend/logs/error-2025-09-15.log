@@ -1,0 +1,70 @@
+2025-09-15 19:00:07 [ERROR]: Connection attempt 1 failed {
+  "error": "The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.",
+  "name": "MongooseError",
+  "stack": "MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at connectDB (file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/config/db.js:77:22)\n    at file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/server.js:89:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:98:5)",
+  "service": "database-connection"
+}
+2025-09-15 19:00:07 [ERROR]: Connection error {
+  "error": "The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.",
+  "name": "MongooseError",
+  "stack": "MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at connectDB (file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/config/db.js:77:22)\n    at file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/server.js:89:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:98:5)",
+  "service": "database-connection"
+}
+2025-09-15 19:00:09 [ERROR]: Connection attempt 2 failed {
+  "error": "The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.",
+  "name": "MongooseError",
+  "stack": "MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at connectDB (file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/config/db.js:77:22)",
+  "service": "database-connection"
+}
+2025-09-15 19:00:09 [ERROR]: Connection error {
+  "error": "The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.",
+  "name": "MongooseError",
+  "stack": "MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at connectDB (file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/config/db.js:77:22)",
+  "service": "database-connection"
+}
+2025-09-15 19:00:13 [ERROR]: Connection attempt 3 failed {
+  "error": "The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.",
+  "name": "MongooseError",
+  "stack": "MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (C:\\Users\\Marcel Hess\\Dev\\marcel-final-expenses-app\\Marcel-Final-Expenses-App\\backend\\node_modules\\mongoose\\lib\\mongoose.js:450:15)\n    at connectDB (file:///C:/Users/Marcel%20Hess/Dev/marcel-final-expenses-app/Marcel-Final-Expenses-App/backend/src/config/db.js:77:22)",
+  "service": "database-connection"
+}
+2025-09-15 19:07:36 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:07:59 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:13:55 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
+2025-09-15 19:14:10 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Invalid credentials",
+  "path": "/api/v1/auth/login",
+  "method": "POST",
+  "ip": "::ffff:172.18.0.1",
+  "stack": "Error: Invalid credentials\n    at file:///app/src/controllers/auth.js:49:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "body": "(request body present)",
+  "service": "expense-tracker"
+}
